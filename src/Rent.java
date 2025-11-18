@@ -5,5 +5,18 @@ public class Rent {
 
         Scanner sc=new Scanner(System.in);
 
+        Vehicle[] vehicle=new Vehicle[4];
+
+        for (int i=0;i<vehicle.length;i++){
+
+            Vehicle vehicle1=new Vehicle();
+           vehicle1.setColor("white");
+           vehicle1.setModel("Van");
+
+
+
+
+        }
+
     }
 }
