@@ -28,7 +28,9 @@ public class TeacherDetails {
 
 
         }
-
+        for(Teacher dt:teacher){
+            dt.displayDetails();
+        }
     }
 
 
