@@ -33,6 +33,10 @@ public class Engineer {
     public void setSalary(double salary) {
         this.salary = salary;
     }
-
+public void getEngineerDetails(){
+    System.out.println(getName() );
+    System.out.println(getRole());
+    System.out.println(getSalary());
+}
 
 }
