@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class TeacherDetails {
 
 
@@ -19,7 +18,18 @@ public class TeacherDetails {
             System.out.print("Enter your salary");
             double salary=sc.nextDouble();
 
+            Teacher teacher1=new Teacher();
+            teacher1.setName(name);
+            teacher1.setAge(age);
+            teacher1.setSalary(salary);
+
+            teacher[i]=teacher1;
+
+
 
         }
+
     }
+
+
 }

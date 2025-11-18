@@ -26,4 +26,10 @@ public class Teacher {
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
+     public void displayDetails() {
+        System.out.print(getName());
+         System.out.print(getAge());
+         System.out.print(getSalary());
+    }
 }
