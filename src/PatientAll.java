@@ -21,6 +21,14 @@ public class PatientAll {
             System.out.print("Enter your Status:");
             String status=sc.next();
 
+            Patient patient1=new Patient();
+            patient1.setName(name);
+            patient1.setAge(age);
+            patient1.setAddress(address);
+            patient1.setStatus(status);
+
+            patient[i]=patient1;
+
 
         }
 
