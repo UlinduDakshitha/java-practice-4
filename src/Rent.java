@@ -12,7 +12,7 @@ public class Rent {
 
         switch (type){
 
-            case "car":
+            case "Car":
                 System.out.print("we have 3 cars enter your number choose");
                 int type1= sc.nextInt();
 
