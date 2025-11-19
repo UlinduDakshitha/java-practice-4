@@ -28,8 +28,11 @@ public class PatientAll {
             patient1.setStatus(status);
 
             patient[i]=patient1;
-            patient1.getAllDetails();
 
+
+        }
+        for(Patient details:patient){
+            details.getAllDetails();
         }
 
     }
