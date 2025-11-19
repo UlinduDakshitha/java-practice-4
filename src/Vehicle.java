@@ -27,7 +27,5 @@ public class Vehicle {
         this.transmission = transmission;
     }
 
-    public void start(){
 
-    }
 }

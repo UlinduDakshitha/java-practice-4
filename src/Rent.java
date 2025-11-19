@@ -45,6 +45,13 @@ public class Rent {
 
 
                 }
+            case "Van":
+                Van van=new Van();
+                van.setModel("Delica");
+                van.setColor("White");
+                van.setTransmission("automatic");
+                van.start();
+                vehicle[3]=van;
         }
 
     }
