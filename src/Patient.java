@@ -35,4 +35,11 @@ private String status;
     public void setStatus(String status) {
         this.status = status;
     }
+    public void getAllDetails(){
+        System.out.println(getName());
+        System.out.println(getAge());
+        System.out.println(getAddress());
+        System.out.println(getStatus());
+    }
+
 }

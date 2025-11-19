@@ -4,7 +4,7 @@ public class PatientAll {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 
-       Patient patient[]=new Patient[0];
+       Patient patient[]=new Patient[5];
 
         for (int i=0;i< patient.length;i++){
 
@@ -28,9 +28,10 @@ public class PatientAll {
             patient1.setStatus(status);
 
             patient[i]=patient1;
-
+            patient1.getAllDetails();
 
         }
 
     }
+
 }
