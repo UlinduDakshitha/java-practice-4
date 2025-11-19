@@ -19,6 +19,12 @@ public class Rent {
                 switch (type1){
 
                     case 1:
+                        Car car=new Car();
+                        car.setModel("Allion");
+                        car.setColor("Red");
+                        car.setTransmission("Automatic");
+                        car.start(2);
+
 
 
                 }
