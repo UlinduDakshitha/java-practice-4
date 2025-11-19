@@ -24,7 +24,23 @@ public class Rent {
                         car.setColor("Red");
                         car.setTransmission("Automatic");
                         car.start(2);
+                        vehicle[0]=car;
 
+                    case 2:
+                        Car car1=new Car();
+                        car1.setModel("Yaris");
+                        car1.setColor("Gold");
+                        car1.setTransmission("Manual");
+                        car1.start("take");
+                        vehicle[1]=car1;
+
+                    case 3:
+                        Car car2=new Car();
+                        car2.setModel("Yaris");
+                        car2.setColor("Blue");
+                        car2.setTransmission("Manual");
+                        car2.start(2.3);
+                        vehicle[2]=car2;
 
 
 

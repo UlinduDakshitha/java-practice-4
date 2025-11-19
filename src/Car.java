@@ -4,7 +4,7 @@ public class Car extends Van{
         System.out.print(getModel()+getColor()+getTransmission());
         System.out.print(getModel()+"is Started");
     }
-    public void start(String x){
+    public void start(String b){
         System.out.print(getModel()+getColor()+getTransmission());
         System.out.print(getModel()+"is Started");
     }
