@@ -26,8 +26,10 @@ public class Animal {
            animal.setLegs(legs);
            animal.setColor(color);
 
-
+           animal4[i]=animal;
        }
+
+
 
 
     }
