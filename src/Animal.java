@@ -12,6 +12,15 @@ public class Animal {
 
        for (int i=0;i< animal4.length;i++){
 
+           System.out.println("Enter the animal name:");
+           String name1=sc.next();
+
+           System.out.println("Enter the animal how many legs:");
+           int legs= sc.nextInt();
+
+           System.out.println("Enter the animal color:");
+           String color=sc.next();
+
 
        }
 
