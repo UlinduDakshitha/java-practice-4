@@ -29,7 +29,13 @@ public class Animal {
            animal4[i]=animal;
        }
 
+for (Animal2 an:animal4){
+    System.out.println(an.getName());
+    System.out.println(an.getLegs());
+    System.out.println(an.getColor());
 
+
+}
 
 
     }
