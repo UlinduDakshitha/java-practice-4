@@ -34,7 +34,6 @@ for (Animal2 an:animal4){
     System.out.println(an.getLegs());
     System.out.println(an.getColor());
 
-
 }
 
 
