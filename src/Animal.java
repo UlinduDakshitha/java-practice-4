@@ -21,6 +21,11 @@ public class Animal {
            System.out.println("Enter the animal color:");
            String color=sc.next();
 
+           Animal2 animal=new Animal2();
+           animal.setName(name1);
+           animal.setLegs(legs);
+           animal.setColor(color);
+
 
        }
 
